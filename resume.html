@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Mohammed Nafees N - Resume</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Segoe UI',Arial,sans-serif;background:#f5f7fa;color:#1a1a2e;font-size:13px;line-height:1.5}
+.page{max-width:800px;margin:0 auto;background:#fff;min-height:100vh;padding:0}
+.header{background:linear-gradient(135deg,#0a0f1e,#0d1535);color:#fff;padding:36px 48px 30px;position:relative;overflow:hidden}
+.header::before{content:'';position:absolute;top:-50%;right:-10%;width:400px;height:400px;background:radial-gradient(circle,rgba(0,168,255,.15),transparent 70%);border-radius:50%}
+.hname{font-size:28px;font-weight:800;letter-spacing:-0.5px;margin-bottom:4px}
+.htitle{font-size:13px;font-weight:500;color:#00a8ff;letter-spacing:2px;text-transform:uppercase;margin-bottom:18px}
+.hcontact{display:flex;flex-wrap:wrap;gap:14px}
+.hc{display:flex;align-items:center;gap:6px;font-size:11.5px;color:rgba(255,255,255,.8)}
+.hc a{color:rgba(255,255,255,.8);text-decoration:none}
+.body{padding:28px 48px}
+.sec{margin-bottom:22px}
+.sec-title{font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:2px;color:#00a8ff;border-bottom:1.5px solid #00a8ff;padding-bottom:5px;margin-bottom:12px}
+.summary p{color:#444;font-size:12.5px;line-height:1.7}
+.skills-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:8px}
+.skill-row{display:flex;align-items:center;gap:10px}
+.skill-label{font-size:11.5px;font-weight:600;color:#1a1a2e;min-width:90px}
+.skill-bar-bg{flex:1;height:5px;background:#e8edf5;border-radius:3px;overflow:hidden}
+.skill-bar{height:100%;background:linear-gradient(90deg,#00a8ff,#7b2fff);border-radius:3px}
+.skill-pct{font-size:10px;color:#888;min-width:28px;text-align:right}
+.tags{display:flex;flex-wrap:wrap;gap:6px;margin-top:12px}
+.tag{background:#f0f8ff;border:1px solid #c8e6ff;color:#0066cc;font-size:10.5px;padding:3px 10px;border-radius:20px;font-weight:500}
+.project{margin-bottom:16px;padding-left:12px;border-left:2.5px solid #00a8ff}
+.proj-title{font-size:13px;font-weight:700;color:#0a0f1e;margin-bottom:2px}
+.proj-stack{font-size:10.5px;color:#00a8ff;font-weight:600;margin-bottom:6px}
+.proj-pts{list-style:none;padding:0}
+.proj-pts li{font-size:11.5px;color:#444;line-height:1.6;padding-left:14px;position:relative;margin-bottom:3px}
+.proj-pts li::before{content:'▸';position:absolute;left:0;color:#00a8ff;font-size:10px}
+.exp-header{display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:4px}
+.exp-title{font-size:13px;font-weight:700;color:#0a0f1e}
+.exp-company{font-size:12px;color:#555;font-weight:500}
+.exp-date{font-size:11px;color:#888;font-style:italic}
+.exp-pts{list-style:none;padding:0;margin-top:6px}
+.exp-pts li{font-size:11.5px;color:#444;line-height:1.6;padding-left:14px;position:relative;margin-bottom:3px}
+.exp-pts li::before{content:'▸';position:absolute;left:0;color:#00a8ff;font-size:10px}
+.edu-item{display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:10px}
+.edu-deg{font-size:13px;font-weight:700;color:#0a0f1e}
+.edu-inst{font-size:11.5px;color:#555;margin-top:2px}
+.edu-right{text-align:right;flex-shrink:0}
+.edu-year{font-size:11px;color:#888}
+.edu-grade{font-size:11.5px;font-weight:600;color:#00a8ff}
+.cert-list{list-style:none;display:flex;flex-direction:column;gap:6px}
+.cert-list li{font-size:12px;color:#444;display:flex;align-items:center;gap:8px}
+.cert-list li::before{content:'✦';color:#00a8ff;font-size:9px;flex-shrink:0}
+.resume-footer{background:#f8faff;border-top:1px solid #e8edf5;padding:12px 48px;text-align:center;font-size:10px;color:#aaa}
+.print-btn{position:fixed;bottom:24px;right:24px;background:linear-gradient(135deg,#00a8ff,#7b2fff);color:#fff;border:none;padding:12px 24px;border-radius:50px;font-size:13px;font-weight:600;cursor:pointer;box-shadow:0 4px 20px rgba(0,168,255,.4);transition:transform .2s;font-family:'Segoe UI',sans-serif}
+.print-btn:hover{transform:translateY(-2px)}
+@media print{.print-btn{display:none}body{background:#fff}.page{box-shadow:none}}
+</style>
+</head>
+<body>
+<button class="print-btn" onclick="window.print()">Download PDF</button>
+<div class="page">
+  <div class="header">
+    <div class="hname">Mohammed Nafees N</div>
+    <div class="htitle">Full Stack Developer</div>
+    <div class="hcontact">
+      <div class="hc">+91 79043 14479</div>
+      <div class="hc">mohammednafees818@gmail.com</div>
+      <div class="hc">linkedin.com/in/mohammed-nafees-n-b65743257</div>
+      <div class="hc">github.com/mohammednafees302</div>
+      <div class="hc">mohammednafees.vercel.app</div>
+      <div class="hc">Tamil Nadu, India</div>
+    </div>
+  </div>
+  <div class="body">
+    <div class="sec">
+      <div class="sec-title">Professional Summary</div>
+      <p>Computer Science Engineering student with hands-on experience in React.js, Node.js, Express.js, and MySQL. Built full-stack applications including an AI-powered fake news detection platform and a Hospital Management System. Passionate about web development and solving real-world problems through clean, scalable technology.</p>
+    </div>
+    <div class="sec">
+      <div class="sec-title">Technical Skills</div>
+      <div class="skills-grid">
+        <div class="skill-row"><span class="skill-label">React.js</span><div class="skill-bar-bg"><div class="skill-bar" style="width:88%"></div></div><span class="skill-pct">88%</span></div>
+        <div class="skill-row"><span class="skill-label">Node.js</span><div class="skill-bar-bg"><div class="skill-bar" style="width:85%"></div></div><span class="skill-pct">85%</span></div>
+        <div class="skill-row"><span class="skill-label">JavaScript</span><div class="skill-bar-bg"><div class="skill-bar" style="width:85%"></div></div><span class="skill-pct">85%</span></div>
+        <div class="skill-row"><span class="skill-label">Express.js</span><div class="skill-bar-bg"><div class="skill-bar" style="width:85%"></div></div><span class="skill-pct">85%</span></div>
+        <div class="skill-row"><span class="skill-label">MySQL</span><div class="skill-bar-bg"><div class="skill-bar" style="width:85%"></div></div><span class="skill-pct">85%</span></div>
+        <div class="skill-row"><span class="skill-label">HTML5 and CSS3</span><div class="skill-bar-bg"><div class="skill-bar" style="width:92%"></div></div><span class="skill-pct">92%</span></div>
+        <div class="skill-row"><span class="skill-label">PostgreSQL</span><div class="skill-bar-bg"><div class="skill-bar" style="width:78%"></div></div><span class="skill-pct">78%</span></div>
+        <div class="skill-row"><span class="skill-label">REST APIs</span><div class="skill-bar-bg"><div class="skill-bar" style="width:83%"></div></div><span class="skill-pct">83%</span></div>
+      </div>
+      <div class="tags">
+        <span class="tag">React.js</span><span class="tag">Node.js</span><span class="tag">Express.js</span><span class="tag">MySQL</span><span class="tag">PostgreSQL</span><span class="tag">Prisma ORM</span><span class="tag">JWT Auth</span><span class="tag">REST APIs</span><span class="tag">HTML5</span><span class="tag">CSS3</span><span class="tag">JavaScript</span><span class="tag">Git and GitHub</span><span class="tag">VS Code</span><span class="tag">Postman</span><span class="tag">Playwright</span>
+      </div>
+    </div>
+    <div class="sec">
+      <div class="sec-title">Projects</div>
+      <div class="project">
+        <div class="proj-title">Verify News - AI-Powered Fake News Detector</div>
+        <div class="proj-stack">React.js · Node.js · Express.js · MySQL · JWT Authentication</div>
+        <ul class="proj-pts">
+          <li>Built with React.js (frontend), Node.js and Express.js (backend), and MySQL (database) to detect and analyze potentially misleading news content</li>
+          <li>Engineered a multi-factor credibility scoring system using sentiment analysis, bias detection, and source trustworthiness evaluation with real-time results on an interactive React dashboard</li>
+          <li>Integrated REST APIs connecting frontend and backend, enabling dynamic article submission, community-driven reporting, and user account management with JWT-based authentication</li>
+        </ul>
+      </div>
+      <div class="project">
+        <div class="proj-title">Hospital Management System</div>
+        <div class="proj-stack">React (Vite) · Node.js · Express.js · PostgreSQL · Prisma ORM · Playwright</div>
+        <ul class="proj-pts">
+          <li>Built a full-stack Hospital Management System to manage patients, doctors, appointments, departments, and billing through a responsive web application</li>
+          <li>Developed secure JWT-based authentication, role-based access control (RBAC), RESTful APIs, and complete CRUD operations with dashboard analytics and real-time notifications</li>
+          <li>Integrated frontend with PostgreSQL database, tested APIs using Postman, and performed end-to-end testing with Playwright for reliable application performance</li>
+        </ul>
+      </div>
+    </div>
+    <div class="sec">
+      <div class="sec-title">Internship</div>
+      <div class="exp-header">
+        <div><div class="exp-title">Frontend and Full Stack Intern</div><div class="exp-company">Durga Tech, Erode</div></div>
+        <div class="exp-date">Internship</div>
+      </div>
+      <ul class="exp-pts">
+        <li>Developed responsive web interfaces using HTML5, CSS3, React.js, and Node.js; optimized performance and ensured cross-browser compatibility</li>
+        <li>Collaborated on interactive features and delivered scalable, user-focused solutions while strengthening problem-solving skills in a team environment</li>
+      </ul>
+    </div>
+    <div class="sec">
+      <div class="sec-title">Education</div>
+      <div class="edu-item">
+        <div><div class="edu-deg">B.E. in Computer Science and Engineering</div><div class="edu-inst">KSR Institute for Engineering and Technology</div></div>
+        <div class="edu-right"><div class="edu-year">2022 - 2026</div><div class="edu-grade">CGPA: 5.69</div></div>
+      </div>
+      <div class="edu-item">
+        <div><div class="edu-deg">HSC | SSLC</div><div class="edu-inst">Kongu Kalvi Nilayam Higher Secondary School</div></div>
+        <div class="edu-right"><div class="edu-grade">54% | 65%</div></div>
+      </div>
+    </div>
+    <div class="sec">
+      <div class="sec-title">Certifications and Achievements</div>
+      <ul class="cert-list">
+        <li>IBM Web Development Certification</li>
+        <li>Udemy Full Stack Development Course</li>
+        <li>Taiwan Technology and Innovation Program</li>
+        <li>Developed 2 industry-relevant full-stack applications (Verify News and HMS) independently as a fresher</li>
+        <li>Portfolio: mohammednafees.vercel.app</li>
+      </ul>
+    </div>
+  </div>
+  <div class="resume-footer">Mohammed Nafees N · mohammednafees818@gmail.com · +91 79043 14479 · mohammednafees.vercel.app</div>
+</div>
+</body>
+</html>
